@@ -24,18 +24,27 @@
         <style>
             :root {
             --bg: #0d0d0d;
+            --bg-rgb: 13 13 13;
             --surface: #131313;
+            --surface-rgb: 19 19 19;
             --border: #1f1f1f;
             --border-hi: #2a2a2a;
+            --border-hi-rgb: 42 42 42;
             --neon-cyan: #00f0ff;
+            --neon-cyan-rgb: 0 240 255;
             --neon-green: #39ff14;
+            --neon-green-rgb: 57 255 20;
             --neon-pink: #ff0055;
+            --neon-pink-rgb: 255 0 85;
             --neon-purple: #ecb2ff;
+            --neon-purple-rgb: 236 178 255;
             --neon-orange: #ff9100;
+            --neon-orange-rgb: 255 145 0;
             --text: #c8c8c8;
             --text-dim: #555;
             --hover-light: #ffffff;
             --white: #ffffff;
+            --white-rgb: 255 255 255;
             --font-mono: 'JetBrains Mono', monospace;
             --font-sans: 'Nunito Sans', sans-serif;
             }
@@ -150,18 +159,27 @@
             /* ── LIGHT MODE ── */
             html.light {
             --bg: #f0f0f0;
+            --bg-rgb: 240 240 240;
             --surface: #ffffff;
+            --surface-rgb: 255 255 255;
             --border: #d1d1d1;
             --border-hi: #b0b0b0;
+            --border-hi-rgb: 176 176 176;
             --neon-cyan: #007a8a;
+            --neon-cyan-rgb: 0 122 138;
             --neon-green: #1e7a00;
+            --neon-green-rgb: 30 122 0;
             --neon-pink: #cc003f;
+            --neon-pink-rgb: 204 0 63;
             --neon-purple: #8b3eb5;
+            --neon-purple-rgb: 139 62 181;
             --neon-orange: #c45e00;
+            --neon-orange-rgb: 196 94 0;
             --text: #1a1a1a;
             --text-dim: #6b6b6b;
             --hover-light: #2c2c2c;
             --white: #1a1a1a;
+            --white-rgb: 26 26 26;
             }
             html.light body { background-color: var(--bg); color: var(--text); }
             html.light body::before { opacity: 0; }
@@ -169,18 +187,27 @@
             /* ── FORCE-DARK: section stays dark regardless of theme ── */
             .force-dark {
             --bg: #0d0d0d;
+            --bg-rgb: 13 13 13;
             --surface: #131313;
+            --surface-rgb: 19 19 19;
             --border: #1f1f1f;
             --border-hi: #2a2a2a;
+            --border-hi-rgb: 42 42 42;
             --neon-cyan: #00f0ff;
+            --neon-cyan-rgb: 0 240 255;
             --neon-green: #39ff14;
+            --neon-green-rgb: 57 255 20;
             --neon-pink: #ff0055;
+            --neon-pink-rgb: 255 0 85;
             --neon-purple: #ecb2ff;
+            --neon-purple-rgb: 236 178 255;
             --neon-orange: #ff9100;
+            --neon-orange-rgb: 255 145 0;
             --text: #c8c8c8;
             --text-dim: #555;
             --hover-light: #ffffff;
             --white: #ffffff;
+            --white-rgb: 255 255 255;
             color: #c8c8c8;
             }
         </style>
@@ -214,9 +241,9 @@
                 <button id="theme-toggle" aria-label="Toggle light/dark mode" class="btn-terminal w-8 h-8 flex items-center justify-center" style="--accent-color: var(--neon-cyan); --accent-rgb: 0, 240, 255;">
                     <span id="theme-icon" class="material-symbols-outlined text-[18px]">light_mode</span>
                 </button>
-                <span class="material-symbols-outlined text-neon-cyan cursor-pointer text-md" data-icon="mail">
+                <!-- <span class="material-symbols-outlined text-neon-cyan cursor-pointer text-md" data-icon="mail">
                     mail
-                </span>
+                </span> -->
                 <a href="https://www.linkedin.com/in/meyerjg" target="_blank" rel="noopener">
                 <button class="btn-terminal px-4 py-1.5 text-[12px]" style="--accent-color: var(--neon-cyan); --accent-rgb: 0, 240, 255;">
                     &gt;_ CONNECT
