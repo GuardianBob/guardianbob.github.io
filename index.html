@@ -6,8 +6,7 @@
         <title>
             GUARDIAN_BOB // CYBER_DECK.v1
         </title>
-        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries">
-        </script>
+        <link rel="stylesheet" href="css/tailwind.css">
         <link href="https://fonts.googleapis.com" rel="preconnect">
         <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&amp;family=Nunito+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
@@ -144,27 +143,7 @@
             .nav-active { color: var(--neon-cyan) !important; transition: color .2s ease; }
             .sidenav-active { color: var(--neon-green) !important; background-color: rgba(57,255,20,0.05); border-left: 2px solid var(--neon-green) !important; transition: background .2s ease, color .2s ease; }
         </style>
-        <script id="tailwind-config">
-            tailwind.config = {
-            darkMode: "class",
-            theme: {
-            extend: {
-            colors: {
-            "cyber-slate": "#adadad",
-            "primary": "#c8c8c8",
-            "white": "#ffffff",
-            "neon-cyan": "#00f0ff",
-            "neon-green": "#39ff14",
-            "neon-pink": "#ff0055",
-            "neon-purple": "#ecb2ff",
-            "neon-orange": "#ff9100",
-            "surface": "#131313",
-            "background": "#0d0d0d"
-            }
-            }
-            }
-            }
-        </script>
+        
     </head>
     <body class="bg-background text-[#c8c8c8] font-['JetBrains_Mono'] overflow-x-hidden selection:bg-neon-cyan/30 selection:text-white">
         <!-- TopAppBar: Minimal Borders & Sharp Edges -->
