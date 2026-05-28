@@ -1,20 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./js/**/*.js"],
   darkMode: "class",
   theme: {
     extend: {
       colors: {
         "cyber-slate": "#adadad",
         "primary": "#c8c8c8",
-        "white": "#ffffff",
-        "neon-cyan": "#00f0ff",
-        "neon-green": "#39ff14",
-        "neon-pink": "#ff0055",
-        "neon-purple": "#ecb2ff",
-        "neon-orange": "#ff9100",
-        "surface": "#131313",
-        "background": "#0d0d0d"
+        "white": "var(--white)",
+        "neon-cyan": "var(--neon-cyan)",
+        "neon-green": "var(--neon-green)",
+        "neon-pink": "var(--neon-pink)",
+        "neon-purple": "var(--neon-purple)",
+        "neon-orange": "var(--neon-orange)",
+        "surface": "var(--surface)",
+        "background": "var(--bg)",
+        "hover-light": "var(--hover-light)"
       }
     }
   },
