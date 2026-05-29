@@ -685,40 +685,50 @@
                     <!-- Card 1: Large Featured -->
                     <!-- HASHTERM: Hero Card -->
                     <div class="md:col-span-8">
-                        <div class="terminal-card p-8 h-full" style="--accent-color: var(--neon-cyan);">
-                            <div class="flex justify-between items-center mb-6">
+                        <div class="terminal-card p-8 h-full group" style="--accent-color: var(--neon-cyan);">
+                            <div class="flex justify-between items-center mb-6 group">
                                 <span class="text-[15px] tracking-[0.3em] text-neon-green font-bold uppercase">
                                     PASSWORD_UTILITY // v1.0
                                 </span>
+                                <a href="https://github.com/GuardianBob/hashterm" class="text-[12px] font-bold text-neon-green tracking-tight uppercase inline-flex items-center gap-1 group-hover:text-neon-orange transition-colors" target="_blank" rel="noopener noreferrer">
+                                    <span>
+                                        GITHUB_REPO
+                                    </span>
+                                    <span class="material-symbols-outlined text-neon-green text-[10px] opacity-80 group-hover:text-neon-orange transition-colors" data-icon="launch">
+                                        launch
+                                    </span>
+                                </a>
                                 <span class="material-symbols-outlined text-neon-cyan text-lg" data-icon="lock">
                                     lock
                                 </span>
                             </div>
-                            <h2 class="text-xl font-bold text-white mb-2 tracking-tight uppercase ">
+                            <a href="https://github.com/GuardianBob/hashterm" class="hover:text-neon-cyan transition-colors" target="_blank" rel="noopener noreferrer">
+                            <h2 class="text-xl font-bold text-white mb-2 tracking-tight uppercase hover:text-neon-cyan transition-colors">
                                 HASHTERM
                             </h2>
-                            <p class="text-[12px] text-cyber-slate mb-6">
+                            </a>
+                            <p class="text-[12px] text-cyber-slate mb-6 group-hover:text-hover-light leading-relaxed">
                                 Client-side password hashing utility for secure Docker credentials and DevOps workflows.
                             </p>
                             <div class="relative mb-6 group border border-border-hi p-0.5 bg-background overflow-hidden">
                                 <div class="absolute inset-0 bg-neon-cyan/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
                                 </div>
-                                <img alt="Hashterm password hasher interface" class="w-full h-64 object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" src="https://github.com/GuardianBob/hashterm/blob/main/hashterm_screenshot.png?raw=true">
+                                <img alt="Hashterm password hasher interface" class="w-full h-64 object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 project-lightbox" src="https://github.com/GuardianBob/hashterm/blob/main/hashterm_screenshot.png?raw=true" data-full-src="https://github.com/GuardianBob/hashterm/blob/main/hashterm_screenshot.png?raw=true" tabindex="0">
                             </div>
                             <div class="flex gap-6 text-[13px] tracking-[0.2em] text-cyber-slate font-bold uppercase flex-wrap">
-                                <span class="">
+                                <span class="group-hover:text-hover-light leading-relaxed">
                                     100%_CLIENT_SIDE
                                 </span>
                                 <span class="text-neon-cyan">
                                     |
                                 </span>
-                                <span class="">
+                                <span class="group-hover:text-hover-light leading-relaxed">
                                     OFFLINE_CAPABLE
                                 </span>
                                 <span class="text-neon-cyan">
                                     |
                                 </span>
-                                <span class="">
+                                <span class="group-hover:text-hover-light leading-relaxed">
                                     ZERO_TRACKING
                                 </span>
                             </div>
@@ -726,7 +736,7 @@
                     </div>
                     <!-- HASHTERM: Algorithms Card -->
                     <div class="md:col-span-4">
-                        <div class="terminal-card p-6 h-full flex flex-col" style="--accent-color: var(--neon-purple);">
+                        <div class="terminal-card p-6 h-full flex flex-col group" style="--accent-color: var(--neon-purple);">
                             <div class="flex items-center gap-3 mb-4">
                                 <span class="material-symbols-outlined text-neon-purple" data-icon="vpn_key">
                                     vpn_key
@@ -735,31 +745,31 @@
                                     ALGORITHMS
                                 </h3>
                             </div>
-                            <div class="text-[11px] text-cyber-slate space-y-2 flex-grow">
-                                <div class="flex justify-between">
+                            <div class="text-[13px] text-cyber-slate space-y-2 flex-grow">
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
                                     <span>BCRYPT</span>
                                     <span class="text-neon-cyan">● HIGH</span>
                                 </div>
-                                <div class="flex justify-between">
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
                                     <span>ARGON2ID</span>
                                     <span class="text-neon-green">● HIGHEST</span>
                                 </div>
-                                <div class="flex justify-between">
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
                                     <span>SHA-256/512</span>
                                     <span class="text-neon-orange">● MODERATE</span>
                                 </div>
-                                <div class="flex justify-between">
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
                                     <span>MD5</span>
                                     <span class="text-neon-pink">● LEGACY</span>
                                 </div>
                             </div>
-                            <div class="mt-4 pt-4 border-t border-border-lo text-[10px] text-cyber-slate">
+                            <div class="mt-4 pt-4 border-t border-border-lo text-[12px] text-cyber-slate group-hover:text-hover-light leading-relaxed">
                                 Configurable parameters: cost factors, memory, iterations, parallelism
                             </div>
                         </div>
                     </div>
                     <!-- HASHTERM: Client-Side Processing -->
-                    <div class="md:col-span-4 flex">
+                    <div class="md:col-span-4 flex group">
                         <div class="terminal-card p-6 flex flex-col h-full" style="--accent-color: var(--neon-green);">
                             <span class="material-symbols-outlined text-neon-green mb-4" data-icon="cloud_off">
                                 cloud_off
@@ -773,7 +783,7 @@
                         </div>
                     </div>
                     <!-- HASHTERM: Docker Integration -->
-                    <div class="md:col-span-4 flex">
+                    <div class="md:col-span-4 flex group">
                         <div class="terminal-card p-6 flex flex-col h-full" style="--accent-color: var(--neon-cyan);">
                             <i class="fa-brands fa-docker text-neon-cyan mb-4 text-2xl" aria-hidden="true"></i>
                             <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
@@ -785,7 +795,7 @@
                         </div>
                     </div>
                     <!-- HASHTERM: Browser Compatibility -->
-                    <div class="md:col-span-4 flex">
+                    <div class="md:col-span-4 flex group">
                         <div class="terminal-card p-6 flex flex-col h-full" style="--accent-color: var(--neon-orange);">
                             <span class="material-symbols-outlined text-neon-orange mb-4" data-icon="devices">
                                 devices
@@ -800,7 +810,295 @@
                     </div>
                 </div>
             </section>
-            
+
+            <!-- ShiftPaw: Veterinary Schedule Management -->
+            <section class="py-10 px-8 max-w-6xl mx-auto" id="shiftpaw">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+                    <!-- Card 1: Large Featured -->
+                    <!-- SHIFTPAW: Hero Card -->
+                    <div class="md:col-span-8">
+                        <div class="terminal-card p-8 h-full group" style="--accent-color: var(--neon-purple);">
+                            <div class="flex justify-between items-center mb-6 group">
+                                <span class="text-[15px] tracking-[0.3em] text-neon-purple font-bold uppercase">
+                                    SHIFTPAW // v1.1
+                                </span>
+                                <a href="https://github.com/GuardianBob/ShiftPaw" class="text-[12px] font-bold text-neon-green tracking-tight uppercase inline-flex items-center gap-1 group-hover:text-neon-orange transition-colors" target="_blank" rel="noopener noreferrer">
+                                    <span>
+                                        GITHUB_REPO
+                                    </span>
+                                    <span class="material-symbols-outlined text-neon-green text-[10px] opacity-80 group-hover:text-neon-orange transition-colors" data-icon="launch">
+                                        launch
+                                    </span>
+                                </a>
+                                <span class="material-symbols-outlined text-neon-purple text-lg" data-icon="pets">
+                                    pets
+                                </span>
+                            </div>
+                            <a href="https://github.com/GuardianBob/ShiftPaw" class="hover:text-neon-green transition-colors" target="_blank" rel="noopener noreferrer">
+                            <h2 class="text-xl font-bold text-white mb-2 tracking-tight uppercase hover:text-neon-green transition-colors">
+                                SHIFTPAW
+                            </h2>
+                            </a>
+                            <p class="text-[12px] text-cyber-slate mb-6 group-hover:text-hover-light leading-relaxed">
+                                Native Android veterinary clinic schedule management. Upload DOCX files, view shifts in interactive calendar, filter by employee, track assignments. MVVM + Jetpack Compose.
+                            </p>
+                            <div class="relative mb-6 group border border-border-hi p-0.5 bg-background overflow-hidden">
+                                <div class="absolute inset-0 bg-neon-green/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                                </div>
+                                <div class="w-full h-64 bg-gradient-to-br from-neon-green/10 to-neon-cyan/10 flex items-center justify-center grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700">
+                                    <div class="w-full px-2 flex flex-col md:flex-row gap-2 items-stretch">
+                                        <div class="w-full md:w-1/2 p-1 flex items-center justify-center">
+                                            <img src="https://github.com/GuardianBob/ShiftPaw/raw/main/screenshots/Screenshot%202026-05-16%20102318.png" alt="ShiftPaw screenshot 102318" class="w-full h-64 object-cover rounded-sm project-lightbox" data-full-src="https://github.com/GuardianBob/ShiftPaw/raw/main/screenshots/Screenshot%202026-05-16%20102318.png" tabindex="0">
+                                        </div>
+                                        <div class="w-full md:w-1/2 p-1 flex items-center justify-center">
+                                            <img src="https://github.com/GuardianBob/ShiftPaw/raw/main/screenshots/Screenshot%202026-05-16%20102305.png" alt="ShiftPaw screenshot 102305" class="w-full h-64 object-cover rounded-sm project-lightbox" data-full-src="https://github.com/GuardianBob/ShiftPaw/raw/main/screenshots/Screenshot%202026-05-16%20102305.png" tabindex="0">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-6 text-[13px] tracking-[0.2em] text-cyber-slate font-bold uppercase flex-wrap">
+                                <span class="group-hover:text-hover-light leading-relaxed">
+                                    DOCX_IMPORT
+                                </span>
+                                <span class="text-neon-green">
+                                    |
+                                </span>
+                                <span class="group-hover:text-hover-light leading-relaxed">
+                                    CALENDAR_VIEW
+                                </span>
+                                <span class="text-neon-green">
+                                    |
+                                </span>
+                                <span class="group-hover:text-hover-light leading-relaxed">
+                                    OFFLINE_READY
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SHIFTPAW: Tech Stack Card -->
+                    <div class="md:col-span-4">
+                        <div class="terminal-card p-6 h-full flex flex-col group" style="--accent-color: var(--neon-cyan);">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="material-symbols-outlined text-neon-cyan" data-icon="memory">
+                                    memory
+                                </span>
+                                <h3 class="text-[12px] font-bold text-white uppercase tracking-[0.18em]">
+                                    ARCHITECTURE
+                                </h3>
+                            </div>
+                            <div class="text-[13px] text-cyber-slate space-y-2 flex-grow">
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
+                                    <span>MVVM_PATTERN</span>
+                                    <span class="text-neon-purple">● CORE</span>
+                                </div>
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
+                                    <span>JETPACK_COMPOSE</span>
+                                    <span class="text-neon-green">● UI</span>
+                                </div>
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
+                                    <span>ROOM_DATABASE</span>
+                                    <span class="text-neon-cyan">● STORAGE</span>
+                                </div>
+                                <div class="flex justify-between group-hover:text-hover-light leading-relaxed">
+                                    <span>HILT_DI</span>
+                                    <span class="text-neon-orange">● INJECTION</span>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4 border-t border-border-lo text-[12px] text-cyber-slate group-hover:text-hover-light leading-relaxed">
+                                Clean Architecture: Data → Domain → UI layers
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SHIFTPAW: DOCX Parser -->
+                    <div class="md:col-span-4 flex">
+                        <div class="terminal-card p-6 flex flex-col h-full group" style="--accent-color: var(--neon-cyan);">
+                            <span class="material-symbols-outlined text-neon-cyan mb-4" data-icon="upload_file">
+                                upload_file
+                            </span>
+                            <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
+                                DOCX_PARSER
+                            </h3>
+                            <p class="text-[14px] text-cyber-slate group-hover:text-hover-light leading-relaxed body-copy">
+                                Apache POI-based table parsing. 14-column layout detection. Auto-detects month from filename (~80% accuracy). Extracts employee initials and shift types instantly.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- SHIFTPAW: Shift Management -->
+                    <div class="md:col-span-4 flex">
+                        <div class="terminal-card p-6 flex flex-col h-full group" style="--accent-color: var(--neon-orange);">
+                            <span class="material-symbols-outlined text-neon-orange mb-4" data-icon="schedule">
+                                schedule
+                            </span>
+                            <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
+                                SHIFT_TYPES
+                            </h3>
+                            <p class="text-[14px] text-cyber-slate group-hover:text-hover-light leading-relaxed body-copy">
+                                Day (07:00–19:00), Evening (10:00–22:00), On-Call (14:00–02:00), Night (18:00–06:00). Hardcoded times per type; future feature: custom scheduling.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- SHIFTPAW: Employee Filtering -->
+                    <div class="md:col-span-4 flex">
+                        <div class="terminal-card p-6 flex flex-col h-full group" style="--accent-color: var(--neon-pink);">
+                            <span class="material-symbols-outlined text-neon-pink mb-4" data-icon="person_search">
+                                person_search
+                            </span>
+                            <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
+                                EMPLOYEE_FILTER
+                            </h3>
+                            <p class="text-[14px] text-cyber-slate group-hover:text-hover-light leading-relaxed body-copy">
+                                Multi-select employee filtering. Set primary employee for highlighting. View shift statistics: total count, breakdown by type. Local state management via ViewModel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Orchestrator: Sub-Agent Team Loop -->
+            <section class="py-10 px-8 max-w-6xl mx-auto" id="orchestrator">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+                    <!-- Card 1: Large Featured -->
+                    <!-- ORCHESTRATOR: Hero Card -->
+                    <div class="md:col-span-8">
+                        <div class="terminal-card p-8 h-full group" style="--accent-color: var(--neon-pink);">
+                            <div class="flex justify-between items-center mb-6 group">
+                                <span class="text-[15px] tracking-[0.3em] text-neon-pink font-bold uppercase">
+                                    ORCHESTRATOR // v1.0
+                                </span>
+                                <a href="https://github.com/GuardianBob/orchestrator" class="text-[12px] font-bold text-neon-pink tracking-tight uppercase inline-flex items-center gap-1 group-hover:text-neon-orange transition-colors" target="_blank" rel="noopener noreferrer">
+                                    <span>
+                                        GITHUB_REPO
+                                    </span>
+                                    <span class="material-symbols-outlined text-neon-pink text-[10px] opacity-80 group-hover:text-neon-orange transition-colors" data-icon="launch">
+                                        launch
+                                    </span>
+                                </a>
+                                <span class="material-symbols-outlined text-neon-pink text-lg" data-icon="smart_toy">
+                                    smart_toy
+                                </span>
+                            </div>
+                            <a href="https://github.com/GuardianBob/orchestrator" class="hover:text-neon-pink transition-colors" target="_blank" rel="noopener noreferrer">
+                            <h2 class="text-xl font-bold text-white mb-2 tracking-tight uppercase hover:text-neon-pink transition-colors">
+                                ORCHESTRATOR
+                            </h2>
+                            </a>
+                            <p class="text-[12px] text-cyber-slate mb-6 group-hover:text-hover-light transition-colors">
+                                Reusable sub-agent team loop. Build → Review → Merge → Next Task. Configurable builder/reviewer agents, living docs automation, gate runner with tests/lint/build. Project-agnostic. opencode/Claude Code skill + slash command.
+                            </p>
+                            <div class="relative mb-6 group border border-border-hi p-0.5 bg-background overflow-hidden">
+                                <div class="absolute inset-0 bg-neon-pink/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                                </div>
+                                <div class="w-full h-64 bg-gradient-to-br from-neon-pink/10 to-neon-purple/10 flex items-center justify-center grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700">
+                                    <div class="text-center">
+                                        <span class="material-symbols-outlined text-neon-pink text-6xl opacity-50">
+                                            auto_mode
+                                        </span>
+                                        <p class="text-[11px] text-neon-pink mt-2 uppercase tracking-[0.2em]">Orchestration Loop | Multi-Agent | Living Docs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-6 text-[13px] tracking-[0.2em] text-cyber-slate font-bold uppercase flex-wrap group">
+                                <span class="group-hover:text-hover-light transition-colors">
+                                    TASK_AUTOMATION
+                                </span>
+                                <span class="text-neon-pink">
+                                    |
+                                </span>
+                                <span class="group-hover:text-hover-light transition-colors">
+                                    REVIEW_GATES
+                                </span>
+                                <span class="text-neon-pink">
+                                    |
+                                </span>
+                                <span class="group-hover:text-hover-light transition-colors">
+                                    SPRINT_MERGE
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ORCHESTRATOR: Pipeline Flow -->
+                    <div class="md:col-span-4">
+                        <div class="terminal-card p-6 h-full flex flex-col" style="--accent-color: var(--neon-cyan);">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="material-symbols-outlined text-neon-cyan" data-icon="workflow">
+                                    workflow
+                                </span>
+                                <h3 class="text-[12px] font-bold text-white uppercase tracking-[0.18em]">
+                                    PIPELINE
+                                </h3>
+                            </div>
+                            <div class="text-[13px] text-cyber-slate space-y-2 flex-grow font-mono">
+                                <div class="flex justify-between text-neon-green">
+                                    <span>1. BUILD</span>
+                                    <span class="material-symbols-outlined text-neon-green" data-icon="build">build</span>
+                                </div>
+                                <div class="flex justify-between text-neon-cyan">
+                                    <span>2. REVIEW</span>
+                                    <span class="material-symbols-outlined text-neon-cyan" data-icon="thumbs_up_down">thumbs_up_down</span>
+                                </div>
+                                <div class="flex justify-between text-neon-orange">
+                                    <span>3. GATES</span>
+                                    <span class="material-symbols-outlined text-neon-orange" data-icon="fence">fence</span>
+                                </div>
+                                <div class="flex justify-between text-neon-pink">
+                                    <span>4. MERGE</span>
+                                    <span class="material-symbols-outlined text-neon-pink" data-icon="merge">merge</span>
+                                </div>
+                                <div class="flex justify-between text-neon-purple">
+                                    <span>5. NEXT</span>
+                                    <span class="material-symbols-outlined text-neon-purple" data-icon="check_small">check_small</span>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4 border-t border-border-lo text-[12px] text-cyber-slate">
+                                Max retries on failure; human approval on sprint complete
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ORCHESTRATOR: Builder/Reviewer Teams -->
+                    <div class="md:col-span-4 flex">
+                        <div class="terminal-card p-6 flex flex-col h-full group" style="--accent-color: var(--neon-green);">
+                            <span class="material-symbols-outlined text-neon-green mb-4" data-icon="group">
+                                group
+                            </span>
+                            <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
+                                CONFIGURABLE_AGENTS
+                            </h3>
+                            <p class="text-[14px] text-cyber-slate group-hover:text-hover-light leading-relaxed body-copy">
+                                Builder agents (architect, coder, tester). Reviewer agents (code-review, security). Map roles to any opencode agent. Parallel execution support. Per-project config in `.orchestrator.json`.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ORCHESTRATOR: Gate Runner -->
+                    <div class="md:col-span-4 flex">
+                        <div class="terminal-card p-6 flex flex-col h-full group" style="--accent-color: var(--neon-orange);">
+                            <span class="material-symbols-outlined text-neon-orange mb-4" data-icon="check_circle">
+                                check_circle
+                            </span>
+                            <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
+                                GATE_RUNNER
+                            </h3>
+                            <p class="text-[14px] text-cyber-slate group-hover:text-hover-light leading-relaxed body-copy">
+                                Auto-detect test, lint, build from package.json / pyproject.toml / Cargo.toml. Pass/fail gates block merges. Audit trail in REVIEW_LOG.md. No override without `--force`.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ORCHESTRATOR: Living Docs -->
+                    <div class="md:col-span-4 flex">
+                        <div class="terminal-card p-6 flex flex-col h-full group" style="--accent-color: var(--neon-purple);">
+                            <span class="material-symbols-outlined text-neon-purple mb-4" data-icon="description">
+                                description
+                            </span>
+                            <h3 class="text-[12px] font-bold text-white mb-3 uppercase tracking-[0.18em]">
+                                LIVING_DOCS
+                            </h3>
+                            <p class="text-[14px] text-cyber-slate group-hover:text-hover-light leading-relaxed body-copy">
+                                MEMORY.md, STATUS_SUMMARY.md, GIT_COMMITS.md, REVIEW_LOG.md, TASKLIST.md auto-updated after each task. Audit trail. Living reference. Always in sync.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Technical Modules Section -->
             <section class="py-24 px-8 max-w-6xl mx-auto" id="stacks">
                 <div class="flex flex-col lg:flex-row gap-16 items-center">
@@ -942,5 +1240,55 @@
             }());
             </script>
         <script src="js/theme.js"></script>
+        <!-- Lightbox Modal -->
+            <div id="lightbox" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-[1200]">
+                <div class="relative max-w-5xl max-h-[90vh] p-4">
+                    <button id="lightbox-close" aria-label="Close" class="absolute top-2 right-2 text-white bg-black/50 px-2 py-1 rounded">✕</button>
+                    <img id="lightbox-img" src="" alt="" class="w-full h-auto object-contain rounded-sm shadow-lg">
+                </div>
+            </div>
+
+            <script>
+            (function(){
+                document.addEventListener('DOMContentLoaded', function(){
+                    const lightbox = document.getElementById('lightbox');
+                    const lbImg = document.getElementById('lightbox-img');
+                    const closeBtn = document.getElementById('lightbox-close');
+
+                    function open(src, alt){
+                        lbImg.src = src;
+                        lbImg.alt = alt || '';
+                        lightbox.classList.remove('hidden');
+                        document.body.style.overflow = 'hidden';
+                    }
+
+                    function close(){
+                        lightbox.classList.add('hidden');
+                        lbImg.src = '';
+                        lbImg.alt = '';
+                        document.body.style.overflow = '';
+                    }
+
+                    // Wire up clickable images
+                    document.querySelectorAll('.project-lightbox').forEach(el=>{
+                        el.style.cursor = 'zoom-in';
+                        el.addEventListener('click', (e)=>{
+                            e.preventDefault();
+                            const src = el.dataset.fullSrc || el.src;
+                            open(src, el.alt);
+                        });
+                        el.addEventListener('keydown', (e)=>{
+                            if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); }
+                        })
+                    });
+
+                    // Close handlers
+                    lightbox.addEventListener('click', function(e){
+                        if(e.target === lightbox || e.target === closeBtn) close();
+                    });
+                    document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+                });
+            }());
+            </script>
     </body>
 </html>
